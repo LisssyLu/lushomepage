@@ -1,6 +1,10 @@
-p {font-size: 20px;
-    background-color: rgb(37, 37, 255);
-    margin: 65px;}
 
-
+    p {margin: 60px;}
+    h1 {margin: 60px;}
+    h4 {margin: 60px;}
+   title {color:rgb(255, 255, 255);}
+   h1 {color:rgb(255, 255, 255);}
+   h4 {color: white}
+   p {color: white;}
+   body {background-color: rgb(49, 49, 247);}
     
