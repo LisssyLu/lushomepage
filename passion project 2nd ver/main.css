@@ -1,6 +1,4 @@
-/* CSS Centering Code with the Universal Selector "*" */ 
 
-* { text-align: center;}
     p {margin: 60px;}
     h1 {margin: 60px;}
     h4 {margin: 60px;}
@@ -10,11 +8,7 @@
    p {color: white;}
    body {background-color: rgb(49, 49, 247);}
    img src {margin: 60px;}
-   ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
+ 
    
 
 
