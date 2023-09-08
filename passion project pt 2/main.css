@@ -1,7 +1,7 @@
 /* CSS Centering Code with the Universal Selector "*" */ 
 
 * { text-align: center;}
-* font color: {white;}
+* font color: {rgb(21, 0, 255);}
     p {margin: 60px;}
     h1 {margin: 60px;}
     h4 {margin: 60px;}
@@ -17,7 +17,7 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    color: white;
+    color:  rgb(21, 0, 255);
   }
    
 
