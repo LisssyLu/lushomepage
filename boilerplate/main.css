@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+body { 
+    background-color: burlywood;
+}
+
+.square {
+    background-color: lightblue;
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    
+}
