@@ -6,4 +6,21 @@ body {background-color: rgb(255, 255, 255);
 title {color:rgb(49, 49, 247);}
 h1 {color: rgb(49, 49, 247)}
    p {color: rgb(49, 49, 247);}
-   font face {impact;}
+
+
+   li {list-style-type: none;
+      margin: 0;
+      padding: 0;
+      }
+      ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      }
+      ul li a:hover{color:rgb(211, 211, 211);}
+      
+      body {background-color: rgb(255, 255, 255);
+      ;}
+      title {color:rgb(49, 49, 247);}
+      h1 {color: rgb(49, 49, 247)}
+         p {color: rgb(49, 49, 247);}
