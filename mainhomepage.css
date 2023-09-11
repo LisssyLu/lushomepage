@@ -24,3 +24,9 @@ h1 {color: rgb(49, 49, 247)}
       title {color:rgb(49, 49, 247);}
       h1 {color: rgb(49, 49, 247)}
          p {color: rgb(49, 49, 247);}
+
+         img 
+  { border-radius: 50%;
+  align-items: center;
+  width: 300px;
+  height: 288px;}
