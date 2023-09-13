@@ -1,0 +1,52 @@
+/* CSS Centering Code with the Universal Selector "*" */ 
+
+* { text-align: center;}
+* font color {color: rgb(2, 2, 2);}
+    p {margin: 60px;}
+    h1 {margin: 60px;}
+    h4 {margin: 60px;}
+   title {color:rgb(255, 255, 255);}
+   h1 {color:rgb(255, 255, 255);}
+   h4 {color:rgb(255, 255, 255)}
+   p {color: rgb(255, 255, 255);}
+   body {background-color:rgb(9, 52, 7);
+    background-image: url("images /luwallpaperGradient.png");}
+
+   body {color: rgb(255, 255, 255);
+    font-family: "Courier New", monospace;
+      font-size: 33px;
+  }
+
+  h1{color: rgb(255, 255, 255);
+    font-family: "Courier New", monospace;
+      font-size: 33px;}
+  h4{color: rgb(255, 255, 255);
+    font-family: "Courier New", monospace;
+      font-size: 33px;}
+
+
+   img src {margin: 60px;}
+   ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+  }
+
+
+  li a:hover{color:rgb(9, 52, 7);
+    size: 35px;}
+
+
+   ul li a:hover{color:rgb(9, 52, 7);}
+
+
+
+   img.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky; 
+    top: 70px;
+    width: 235px;
+  height: 235px;
+  }
+  
