@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: lightskyblue;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content:center;
+
+    height: 400px;
+/*align-items:center;*/
+    align-items: center;
+
+
+
+    gap: 20px 40px;
+}
+
+
+.item{
+background-color:rgb(252, 199, 199);
+padding: 10px;
+border: 1px solid;
+
+height:300px;
+width:100px;
+
+display:flex;
+justify-content: center;
+align-items:center;
+}
+
+
+.special {
+background-color:greenyellow ;
+order:-1;
+}
