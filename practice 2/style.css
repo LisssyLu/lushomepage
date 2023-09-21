@@ -1,0 +1,22 @@
+body{
+  background-color: rgb(13, 29, 255);
+}
+img {
+    max-height: 600px;
+    min-width: 300px;
+    max-width: 100px;
+    vertical-align: bottom;
+    justify-content: space-around;
+    align-content: space-around;
+    padding: 5px;
+    border-radius: 20px;
+    
+  }
+
+  a {
+    /* this is needed to remove the small 
+    underline that's added to links, which 
+    we don't want on our images */
+    text-decoration:none;
+  }
+  
