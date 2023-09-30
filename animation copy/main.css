@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+body { 
+    background-color: #fffeb3;
+    margin: 0;
+}
+
+.box{
+    /*background-color: burlywood;*/
+    width: 300px;
+    height: 300px; 
+    /* animation-name: life;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+animation-timing-function: linear; */
+
+animation: life 3s infinite alternate linear 2s;
+
+}
+
+
+@keyframes life {
+0% {
+    background-color:rgb(207, 77, 170);
+} 
+
+
+100%{
+background-color:deeppink;
+
+}
+
+}
+
+
+
+.container{
+    display:flex;
+    width: 100vw;
+    height:100vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.circle{
+    background-color: rgb(51, 147, 64);
+    width: 120%;
+    height:120%;
+    border-radius:100%;
+   animation: pulse 10s infinite alternate ease; 
+}
+
+
+@keyframes pulse{
+    0%{
+        background-color: rgb(255, 115, 0);
+        width: 20vw;
+        height: 20vw;
+        transform: scale(1);
+    }
+
+    100%{
+        background-color:deepskyblue;
+        width:15vw;
+        height:15vw;
+        transform: scale(1.5)
+    }
+}
+.square{
+    background-color: deeppink;
+    width: 15vw;
+    height:15vw;
+    animation: spin 6s infinite linear;
+
+}
+
+
+@keyframes spin{
+    0%{
+transform:rotate(0);
+    }
+
+
+    100%{
+transform: rotate(360deg);
+    }
+}
+
+
+
+.mover {
+width: 20vw;
+height: 15vw;
+position: fixed;
+bottom: 0;
+left:0;
+animation: move 6s infinite linear ;
+}
+
+@keyframes move {
+    0%{
+transform:translateX(-15)
+    }
+
+
+    100%{
+transform: translateX(100vw);
+    }
+}
+
+
+
+.mover-shape{
+    animation: grow 6s infinite;
+    width: 15vw;
+    height: 3vw;
+    animation: grow 3s infinite alternate;
+}
+
+@keyframes grow{
+    0%{
+        transform: scale(1);
+    }
+
+    100%{
+        transform: scale(2);
+    }
+}
