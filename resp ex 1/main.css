@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+}
+
+p{
+    background-color: darkblue;
+    padding: 30px;
+    max-width: 500px;
+}
+
+
+.container{
+    max-width:600px;
+}
