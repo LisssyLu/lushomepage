@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    background-size: cover;
+}
+
+
+
+
+img{
+    max-width: auto;
+    max-height: 100%;
+}
+
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 34, 255);
+    background-image: url(mirror5.jpg); background-size: cover;
+    height: 100vh;
+    padding: 30px;
+}
+   
+
+.album{
+    display: none;
+}
+
+.always{
+    display: block;
+}
+
+
+
+@media screen and (max-width:1000px) {
+    .always{
+        display: none;
+    }
+
+    .magic{
+        display: block;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width:950px) {
+
+    .magic{
+        display: none;
+    }
+
+    .breathe{
+        display:block;
+    }
+ 
+
+}
+
+
+@media screen and (max-width:920px) {
+
+    .breathe{
+        display: none;
+    }
+
+    .youth{
+        display:block;
+    }
+ 
+
+}
+
+
+
+@media screen and (max-width:900px) {
+
+    .youth{
+        display: none;
+    }
+
+    .modern{
+        display:block;
+    }
+ 
+
+}
+
+
+
+
+@media screen and (max-width:850px) {
+
+    .modern{
+        display: none;
+    }
+
+    .turbulence{
+        display:block;
+    }
+ 
+
+}
+
+
+@media screen and (max-width:800px) {
+
+    .turbulence{
+        display: none;
+    }
+
+    .youtiful{
+        display:block;
+    }
+ 
+
+}
+
+
+
+@media screen and (max-width:750px) {
+
+    .youtiful{
+        display: none;
+    }
+
+    .kidult{
+        display:block;
+    }
+ 
+
+}
+
+
+
+@media screen and (max-width:700px) {
+
+    .kidult{
+        display: none;
+    }
+
+    .different{
+        display:block;
+    }
+ 
+
+}
+
+
+
+
+
+@media screen and (max-width:650px) {
+
+    .different{
+        display: none;
+    }
+
+    .fray{
+        display:block;
+    }
+ 
+
+}
+
+
+
+
+

@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    background-size: cover;
+}
+
+
+
+
+img{
+    max-width: auto;
+    max-height: 100%;
+}
+
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 34, 255);
+    background-image: url(mirror7.jpg); background-size: cover;
+    height: 100vh;
+    padding: 30px;
+}
+   
+
+.album{
+    display: none;
+}
+
+.guilty{
+    display: block;
+}
+
+
+
+@media screen and (max-width:1000px) {
+    .guilty{
+        display: none;
+    }
+
+    .dance1{
+        display: block;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width:950px) {
+
+    .dance1{
+        display: none;
+    }
+
+    .dance2{
+        display:block;
+    }
+ 
+
+}
+
+
+@media screen and (max-width:920px) {
+
+    .dance2{
+        display: none;
+    }
+
+    .flame{
+        display:block;
+    }
+ 
+
+}
+
+
+
+@media screen and (max-width:900px) {
+
+    .flame{
+        display: none;
+    }
+
+    .oll{
+        display:block;
+    }
+ 
+
+}
+
+
+
+
+@media screen and (max-width:850px) {
+
+    .oll{
+        display: none;
+    }
+
+    .colorful{
+        display:block;
+    }
+ 
+
+}
+
+
+@media screen and (max-width:800px) {
+
+    .colorful{
+        display: none;
+    }
+
+    .ooli{
+        display:block;
+    }
+ 
+
+}
+
+
+
+@media screen and (max-width:750px) {
+
+    .ooli{
+        display: none;
+    }
+
+    .darling{
+        display:block;
+    }
+ 
+
+}
+
+
+
+@media screen and (max-width:700px) {
+
+    .darling{
+        display: none;
+    }
+
+    .tired{
+        display:block;
+    }
+ 
+
+}
+
+
+
+
+
+@media screen and (max-width:650px) {
+
+    .tired{
+        display: none;
+    }
+
+    .jamie{
+        display:block;
+    }
+ 
+
+}
+
+
+
+@media screen and (max-width:600px) {
+
+    .jamie{
+        display: none;
+    }
+
+    .rock{
+        display:block;
+    }
+ 
+
+}
+
