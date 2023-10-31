@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(213, 171, 255);
+}
+
+.dark{
+    background-color:rgb(164, 217, 255);
+}
+
+
+.bg{
+    background-image:url(guilty.png);
+    background-size:cover;
+    background-position:center;
+    width:100vw;
+    height:100vh;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:-1;
+    opacity:0;
+
+}
+
+
+
+.sidebar{
+    padding:20px; 
+    background-color: rgb(140, 140, 255);
+    color: white;
+    font-size: 20px;
+    position:fixed;
+    top:0;
+    right:-250px;
+    height:100vh;
+    width: 250px;
+    text-align:center;
+    transition: right .5s;
+
+}
+
+
+
+.active{
+  right:0;
+}
+
+
+.square{
+    height:100px;
+    width:100px;
+    background-color:pink;
+    position: fixed;
+    left: 30px;
+    bottom: 30px;
+    transition: transform .3s;
+}
+
+
+
+.spin{
+    transform:rotate(-180deg);
+}

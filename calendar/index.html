@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> calendar</title>
+  <link rel="stylesheet" href= "main.css">
+  <meta name="viewport" content="width=device-width, intial - scale=1.0">
+</head>
+
+
+<style>
+* {box-sizing: border-box;}
+ul {list-style-type: none;}
+body {font-family: impact;}
+
+
+
+
+.month {
+  padding: 100px 0px;
+  width: 100%;
+  background: #000000;
+  text-align: center;
+}
+
+
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+  font-size:35px;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #606060;
+  text-align: center;
+}
+
+.days {
+  padding: 35px 0;
+  background: #dedede;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 70px;
+  font-size:17px;
+  color: #777;
+}
+
+.days li .active {
+  padding: 15px;
+  color:  #777 !important
+}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+  .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+  .weekdays li, .days li {width: 12.5%;}
+  .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+  .weekdays li, .days li {width: 12.2%;}
+}
+</style>
+
+
+
+
+
+
+<body>
+
+<h1></h1>
+<!-- first we set up the button that is triggering our javascript -->
+<!-- note that the element doesn't need to be a <button> to work -->
+  <button onclick="change()">Click me...</button>
+
+  
+
+
+  <!-- this is the element that we will be altering with our javascript -->
+  <div id="menu" class="sidebar">
+  
+  </div>
+
+
+  <script>
+    function change() {
+
+      var menu = document.getElementById("menu");
+  
+    menu.classList.toggle("active");
+    }
+        </script>
+        
+
+<div class="month">      
+  <ul>
+  
+      <span style="font-size:18px"></span>
+    </li>
+  </ul>
+</div>
+
+<ul class="weekdays">
+  <li>7</li>
+  <li>7</li>
+  <li>7</li>
+  <li>7</li>
+  <li>7</li>
+  <li>7</li>
+  <li>7</li>
+</ul>
+
+<ul class="days">  
+  <li>7</li>
+  <li>7</li>
+  <li>7</li>
+  <li>7</li>
+  <li>7</li>
+  <li>7</li>
+  <li>7</li>
+  <li>7</li>
+  <li>7</li>
+  <li>7</li>
+  <li>7</li>
+  <li>7</li>
+  <li>7</li>
+  <li>7</li>
+  <li>7</li>
+  <li>7</li>
+  <li>7</li>
+  <li>7</li>
+  <li>7</li>
+  <li>7</li>
+  <li>7</li>
+  <li>7</li>
+  <li>7</li>
+  <li>7</li>
+  <li>7</li>
+  <li>7</li>
+  <li>7</li>
+  <li>7</li>
+  <li>7</li>
+  <li>7</li>
+  <li>7</li>
+
+</ul>
+
+
+
+
+
+
+</body>
+</html>
