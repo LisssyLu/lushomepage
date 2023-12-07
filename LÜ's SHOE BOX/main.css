@@ -41,6 +41,7 @@
   }
 
   img{
+    display: flex;
     align-content: center;
     object-position: center;
   }
